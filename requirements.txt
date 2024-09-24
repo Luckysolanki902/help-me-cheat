@@ -1,0 +1,8 @@
+pyautogui
+pytesseract
+twilio
+google-generativeai
+python-dotenv
+Pillow
+keyboard
+openai
