@@ -11,7 +11,8 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=google_api_key)
 
 # Initialize Gemini model
-model = genai.GenerativeModel("gemini-1.5-flash-001")
+model = genai.GenerativeModel("gemini-1.5-flash")
+# Available models: 'gemini-1.5-pro', 'Gemini 1.0 Pro', 'gemini-1.5-flash'
 
 async def send_to_gemini(image_path, prompt):
     try:
