@@ -1,3 +1,4 @@
+## This is an old repo, the newer and better version which contains leetcode solver and better quiz solver is private, contact luckysolanki@gmail.com if you're curious
 # Main File
 To start just run the `main.py` file
 
